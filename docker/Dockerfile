@@ -1,5 +1,5 @@
 # Base image
-FROM ghcr.io/djdembeck/m4b-merge:develop
+FROM hackmonker/m4b-merge:main
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
